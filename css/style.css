@@ -1,0 +1,65 @@
+.contenedor{
+	max-width: 1250px;
+	margin:auto;
+}
+.titulo{
+	display: inline-block;
+	width: 49%;
+}
+
+nav{
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#c5deea+0,8abbd7+31,066dab+100;Web+2.0+Blue+3D+%231 */
+background: #c5deea; /* Old browsers */
+background: -moz-linear-gradient(top,  #c5deea 0%, #8abbd7 31%, #066dab 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #c5deea 0%,#8abbd7 31%,#066dab 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #c5deea 0%,#8abbd7 31%,#066dab 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c5deea', endColorstr='#066dab',GradientType=0 ); /* IE6-9 */
+
+	padding: 20px 0;
+}
+nav h1{
+	display: inline-block;
+	font-size: 30px;
+	font-weight: bold;
+	font-family: 'Quicksand', sans-serif;
+}
+nav ul{
+	float: right;
+}
+nav ul li{
+	display: inline-block;
+	margin-right: 50px;
+}
+nav ul li a{
+	font-size: 30px;
+	font-weight: bold;
+	text-decoration: none;
+	font-family: 'Quicksand', sans-serif;
+	color: black;
+
+}
+header {
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ebe9f9+0,d8d0ef+50,cec7ec+51,c1bfea+100;Purple+3D+%231 */
+background: #ebe9f9; /* Old browsers */
+background: -moz-linear-gradient(top, #ebe9f9 0%, #d8d0ef 50%, #cec7ec 51%, #c1bfea 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, #ebe9f9 0%,#d8d0ef 50%,#cec7ec 51%,#c1bfea 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, #ebe9f9 0%,#d8d0ef 50%,#cec7ec 51%,#c1bfea 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ebe9f9', endColorstr='#c1bfea',GradientType=0 ); /* IE6-9 */
+}
+header h2, h4{
+	font-weight: bold;
+	font-family: 'Quicksand', sans-serif;
+	color: #4B0082;
+	padding: 90px 0;
+	display: inline-block;
+}
+header h2{
+	font-size: 100px;
+}
+header h4{
+	font-size: 40px;
+}
+.titulo img{
+	display: block;
+	margin:25px auto;
+}
