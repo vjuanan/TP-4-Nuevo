@@ -2,26 +2,35 @@
 	max-width: 1250px;
 	margin:auto;
 }
+
 .titulo{
 	display: inline-block;
 	width: 49%;
+	text-align: center;
 }
 
 nav{
-	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#c5deea+0,8abbd7+31,066dab+100;Web+2.0+Blue+3D+%231 */
-background: #c5deea; /* Old browsers */
-background: -moz-linear-gradient(top,  #c5deea 0%, #8abbd7 31%, #066dab 100%); /* FF3.6-15 */
-background: -webkit-linear-gradient(top,  #c5deea 0%,#8abbd7 31%,#066dab 100%); /* Chrome10-25,Safari5.1-6 */
-background: linear-gradient(to bottom,  #c5deea 0%,#8abbd7 31%,#066dab 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c5deea', endColorstr='#066dab',GradientType=0 ); /* IE6-9 */
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#3f4c6b+0,3f4c6b+100;Blue+Grey+Flat */
+background: rgb(63,76,107); /* Old browsers */
+background: -moz-linear-gradient(top,  rgba(63,76,107,1) 0%, rgba(63,76,107,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  rgba(63,76,107,1) 0%,rgba(63,76,107,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  rgba(63,76,107,1) 0%,rgba(63,76,107,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3f4c6b', endColorstr='#3f4c6b',GradientType=0 ); /* IE6-9 */
 
 	padding: 20px 0;
+}
+nav img{
+	position: relative;
+	padding: auto;
+	top:3px;
 }
 nav h1{
 	display: inline-block;
 	font-size: 30px;
 	font-weight: bold;
 	font-family: 'Quicksand', sans-serif;
+	padding-left: 10px;
+	color: #ADD8E6;
 }
 nav ul{
 	float: right;
@@ -29,29 +38,30 @@ nav ul{
 nav ul li{
 	display: inline-block;
 	margin-right: 50px;
+	padding-top: 10px;
 }
 nav ul li a{
-	font-size: 30px;
+	font-size: 20px;
 	font-weight: bold;
 	text-decoration: none;
 	font-family: 'Quicksand', sans-serif;
-	color: black;
+	color: #ADD8E6;
 
 }
-header {
-	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ebe9f9+0,d8d0ef+50,cec7ec+51,c1bfea+100;Purple+3D+%231 */
-background: #ebe9f9; /* Old browsers */
-background: -moz-linear-gradient(top, #ebe9f9 0%, #d8d0ef 50%, #cec7ec 51%, #c1bfea 100%); /* FF3.6-15 */
-background: -webkit-linear-gradient(top, #ebe9f9 0%,#d8d0ef 50%,#cec7ec 51%,#c1bfea 100%); /* Chrome10-25,Safari5.1-6 */
-background: linear-gradient(to bottom, #ebe9f9 0%,#d8d0ef 50%,#cec7ec 51%,#c1bfea 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ebe9f9', endColorstr='#c1bfea',GradientType=0 ); /* IE6-9 */
+nav ul li:last-child {
+	color: grey;
 }
+header {
+	background: url(https://www.queesbitcoin.info/wp-content/uploads/2015/12/bitcoin.jpg);
+	opacity: 0.95;
+	}
 header h2, h4{
 	font-weight: bold;
 	font-family: 'Quicksand', sans-serif;
-	color: #4B0082;
+	color: 	#ADD8E6;
 	padding: 90px 0;
 	display: inline-block;
+	float: left;
 }
 header h2{
 	font-size: 100px;
@@ -61,5 +71,198 @@ header h4{
 }
 .titulo img{
 	display: block;
-	margin:25px auto;
+	margin:auto auto;
+	vertical-align: middle;
+	padding: 70px 0;
+	border-radius: 50%;
+}
+.seccion1 .contenedor{
+	text-align: center;
+}
+.cuenta, .ok{
+	display: inline-block;
+}
+.cuenta form{
+	text-align: center;
+	display: inline-block;
+	background-color: white;
+	position: relative;
+	top: -30px;
+	padding: 10px;
+}
+.cuenta form input {
+	width: 400px;
+	height: 30px;
+	display: inline-block;
+	text-align: center;
+	border:none;
+}
+.ok form{
+	text-align: center;
+	display: inline-block;
+	background-color:#AFEEEE;
+	position: relative;
+	top: -30px;
+	padding: 10px;
+}
+.ok form input {
+	width: 100px;
+	height: 30px;
+	display: inline-block;
+	font-weight: bold;
+	text-align: center;
+	background-color: #AFEEEE;
+	font-family: 'Quicksand', sans-serif;
+	color: #4B0082;
+	border:none;
+	}
+	
+.seccion2, .seccion1{
+	background: url(https://vip.bitcoin.co.id/homev2-assets/img/p2pbg.jpg);
+	opacity: 0.95;
+}
+.servicios article{
+	display: inline-block;
+	width: 24%;
+	text-align: center;
+	padding: 0 5px;
+	padding-bottom: 10px;
+	box-sizing: border-box;
+}
+.servicios article img{
+	-webkit-border-radius:50%;
+    border-radius: 50%;
+    -webkit-transition: 1.3s ease-in-out;
+}
+.servicios article h3{
+	font-size: 40px;
+	font-weight: bold;
+	text-align: center;
+	font-family: 'Quicksand', sans-serif;
+	color: #5F9EA0;
+	padding: 10px 0;
+}
+.servicios article p{
+	font-size: 15px;
+	font-weight: bold;
+	text-align: center;
+	font-family: 'Quicksand', sans-serif;
+	color: #1E90FF;
+	line-height: 22px;
+	text-align: left;
+}
+.servicios img:hover{
+	-webkit-transform: scale(1.35);
+}
+.sepadiv{
+	text-align: center;
+}
+.separador{
+	 display: inline-block;
+	 height: 2px;
+	 width: 30%;
+	 background-color: blue;
+	 border-radius: 20px;
+	 margin:25px 0;
+	 text-align: center;
+}
+.sec3t h2{
+	display: block;
+	font-size: 45px;
+	font-weight: bold;
+	font-family: 'Quicksand', sans-serif;
+	padding: 60px;
+	text-align: center;
+	padding-top: 60px;
+	color: 	#fdb813;
+	margin: auto;
+}
+.sec3t h5{
+	display: inline-block;
+	font-size: 25px;
+	font-family: 'Quicksand', sans-serif;
+	padding: 60px;
+	padding-top: 0px;
+	text-align: center;
+	color: #fdb813;
+	line-height: 30px;
+	font-weight: bold;
+}
+.l{
+	display: flex;
+	justify-content: flex-start;
+	padding-top: 15px;
+	position: relative;
+	top: 30px;
+}
+.l1, .l2{
+	width: 33%;
+	padding: 5px;
+}
+.l2{
+	padding-left: 25px;
+}
+.l1 li, .l2 li{
+	display: inline-block;
+	padding-bottom: 25px;
+}
+.la{
+	width: 70%;
+	display: inline-block;
+	text-align: left;
+}
+.l1 .la{
+	text-align: right;
+}
+.la h4{
+	display: inline-block;
+	width: 100%;
+	padding: 5px 0;
+	padding-bottom: 5px;
+}
+.lb{
+	display: inline-block;
+	width: auto;
+	text-align: right;
+	padding-bottom: 15px;
+}
+.l2 .lb{
+	display: inline-block;
+	width: auto;
+	padding-bottom: 15px;
+}
+.l2 .la{
+	display: inline-block;
+	width: 70%;
+	padding-bottom: 15px;
+}
+.sec3img{
+	display: inline-block;
+	width: 33%;
+	overflow: hidden;
+	text-align: center;
+}
+
+.l1 .lb{
+	padding-left: 30px;
+	position: relative;
+	top:-22px;
+}
+.l2 .lb{
+	padding-right: 30px;
+	position: relative;
+	top:-22px;
+}
+
+.l h4{
+	font-size: 22px;
+	color:black;
+	font-weight: bold;
+}
+.l p{
+	font-size: 17px;
+}
+body{
+	font-family: 'Montserrat', sans-serif;
+
 }
